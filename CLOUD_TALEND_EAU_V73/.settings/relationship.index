@@ -648,6 +648,10 @@
     "id" : "_4BBV0Hq8EeyGE7jU17LvEA",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "_VIkTwHq9EeyGE7jU17LvEA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
