@@ -16,7 +16,7 @@
     <talend.job.type>Standard</talend.job.type>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <talend.pigudf.groupid>org.example.cloud_talend_eau_v73.pigudf</talend.pigudf.groupid>
-    <talend.job.folder>demo_prep/</talend.job.folder>
+    <talend.job.folder>aiwatch/</talend.job.folder>
     <talend.job.context>Default</talend.job.context>
     <talend.job.path>cloud_talend_eau_v73</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
@@ -211,6 +211,11 @@
       <groupId>com.google.guava</groupId>
       <artifactId>failureaccess</artifactId>
       <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.components</groupId>
+      <artifactId>filecopy</artifactId>
+      <version>2.0.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
