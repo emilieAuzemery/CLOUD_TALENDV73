@@ -8,6 +8,10 @@
   <packaging>pom</packaging>
   <name>CLOUD_TALEND_EAU_V73 Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/beans</module>
+    <module>code/routines</module>
+  </modules>
   <properties>
     <talend.project.name>CLOUD_TALEND_EAU_V73</talend.project.name>
     <talend.docker.tag>${project.version}</talend.docker.tag>
