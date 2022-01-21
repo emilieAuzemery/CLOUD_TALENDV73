@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_MpvssDPsEeupooSlutdgYw">
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Password" prompt="BDD_ORACLE_ODS_HIS_DEC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:mgWOcgmMXzn2HJobkuvYbSLtthbGdIJkKaBFvIiszZw=" xmi:id="_MpvssTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_ServiceName" prompt="BDD_ORACLE_ODS_HIS_DEC_ServiceName?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvssjPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Schema" prompt="BDD_ORACLE_ODS_HIS_DEC_Schema?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvsszPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Server" prompt="BDD_ORACLE_ODS_HIS_DEC_Server?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvstDPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Port" prompt="BDD_ORACLE_ODS_HIS_DEC_Port?" promptNeeded="false" type="id_String" value="0" xmi:id="_MpvstTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams" prompt="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvstjPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Login" prompt="BDD_ORACLE_ODS_HIS_DEC_Login?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvstzPsEeupooSlutdgYw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_MpvsuDPsEeupooSlutdgYw">
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Password" prompt="BDD_ORACLE_ODS_HIS_DEC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:b6VHGKLFWajr+GHjQGzkqqeBq/V96sKG6uMJMJGOBsBepA+74yuN" xmi:id="_MpvsuTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_ServiceName" prompt="BDD_ORACLE_ODS_HIS_DEC_ServiceName?" promptNeeded="false" type="id_String" value="DDEC" xmi:id="_MpvsujPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Schema" prompt="BDD_ORACLE_ODS_HIS_DEC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_MpvsuzPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Server" prompt="BDD_ORACLE_ODS_HIS_DEC_Server?" promptNeeded="false" type="id_String" value="ULNXBDCBX111" xmi:id="_MpvsvDPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Port" prompt="BDD_ORACLE_ODS_HIS_DEC_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_MpvsvTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams" prompt="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_MpvsvjPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Login" prompt="BDD_ORACLE_ODS_HIS_DEC_Login?" promptNeeded="false" type="id_String" value="ODS_HIS_DEC" xmi:id="_MpvsvzPsEeupooSlutdgYw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="INTEGRATION" xmi:id="_MpvswDPsEeupooSlutdgYw">
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Password" prompt="BDD_ORACLE_ODS_HIS_DEC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:YGVh36BML+9Zv65ZdqwjRU/WCiydltsfcPHb8A5Mtbg=" xmi:id="_MpvswTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_ServiceName" prompt="BDD_ORACLE_ODS_HIS_DEC_ServiceName?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvswjPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Schema" prompt="BDD_ORACLE_ODS_HIS_DEC_Schema?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvswzPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Server" prompt="BDD_ORACLE_ODS_HIS_DEC_Server?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvsxDPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Port" prompt="BDD_ORACLE_ODS_HIS_DEC_Port?" promptNeeded="false" type="id_String" value="0" xmi:id="_MpvsxTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams" prompt="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvsxjPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Login" prompt="BDD_ORACLE_ODS_HIS_DEC_Login?" promptNeeded="false" type="id_String" value="null" xmi:id="_MpvsxzPsEeupooSlutdgYw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PREPROD" xmi:id="_MpvsyDPsEeupooSlutdgYw">
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Password" prompt="BDD_ORACLE_ODS_HIS_DEC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:UDoI7RPKCGM9cTdtBdmQE1GHxXMbUvlDfttMQBBxqQ10HF0zDg==" xmi:id="_MpvsyTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_ServiceName" prompt="BDD_ORACLE_ODS_HIS_DEC_ServiceName?" promptNeeded="false" type="id_String" value="DSID" xmi:id="_MpvsyjPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Schema" prompt="BDD_ORACLE_ODS_HIS_DEC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_MpvsyzPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Server" prompt="BDD_ORACLE_ODS_HIS_DEC_Server?" promptNeeded="false" type="id_String" value="ULNXBDCBX111" xmi:id="_MpvszDPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Port" prompt="BDD_ORACLE_ODS_HIS_DEC_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_MpvszTPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams" prompt="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_MpvszjPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Login" prompt="BDD_ORACLE_ODS_HIS_DEC_Login?" promptNeeded="false" type="id_String" value="ODS_OASIS" xmi:id="_MpvszzPsEeupooSlutdgYw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_Mpvs0DPsEeupooSlutdgYw">
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Password" prompt="BDD_ORACLE_ODS_HIS_DEC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:sMSQfmHsCHTpjOD35yJ1rrFbrsZeb7YICeMhuAf2SsNuDi7ixQ==" xmi:id="_Mpvs0TPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_ServiceName" prompt="BDD_ORACLE_ODS_HIS_DEC_ServiceName?" promptNeeded="false" type="id_String" value="DSID" xmi:id="_Mpvs0jPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Schema" prompt="BDD_ORACLE_ODS_HIS_DEC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs0zPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Server" prompt="BDD_ORACLE_ODS_HIS_DEC_Server?" promptNeeded="false" type="id_String" value="ULNXBDCBX111" xmi:id="_Mpvs1DPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Port" prompt="BDD_ORACLE_ODS_HIS_DEC_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_Mpvs1TPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams" prompt="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs1jPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Login" prompt="BDD_ORACLE_ODS_HIS_DEC_Login?" promptNeeded="false" type="id_String" value="ODS_OASIS" xmi:id="_Mpvs1zPsEeupooSlutdgYw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="RECETTE" xmi:id="_Mpvs2DPsEeupooSlutdgYw">
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Password" prompt="BDD_ORACLE_ODS_HIS_DEC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:ilnbe1E/1FBfNkv3emP7OnmYX4t8au/4uYCPobsZZdM=" xmi:id="_Mpvs2TPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_ServiceName" prompt="BDD_ORACLE_ODS_HIS_DEC_ServiceName?" promptNeeded="false" type="id_String" value="null" xmi:id="_Mpvs2jPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Schema" prompt="BDD_ORACLE_ODS_HIS_DEC_Schema?" promptNeeded="false" type="id_String" value="null" xmi:id="_Mpvs2zPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Server" prompt="BDD_ORACLE_ODS_HIS_DEC_Server?" promptNeeded="false" type="id_String" value="null" xmi:id="_Mpvs3DPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Port" prompt="BDD_ORACLE_ODS_HIS_DEC_Port?" promptNeeded="false" type="id_String" value="0" xmi:id="_Mpvs3TPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams" prompt="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams?" promptNeeded="false" type="id_String" value="null" xmi:id="_Mpvs3jPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Login" prompt="BDD_ORACLE_ODS_HIS_DEC_Login?" promptNeeded="false" type="id_String" value="null" xmi:id="_Mpvs3zPsEeupooSlutdgYw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Vide" xmi:id="_Mpvs4DPsEeupooSlutdgYw">
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Password" prompt="BDD_ORACLE_ODS_HIS_DEC_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_Mpvs4TPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_ServiceName" prompt="BDD_ORACLE_ODS_HIS_DEC_ServiceName?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs4jPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Schema" prompt="BDD_ORACLE_ODS_HIS_DEC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs4zPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Server" prompt="BDD_ORACLE_ODS_HIS_DEC_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs5DPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Port" prompt="BDD_ORACLE_ODS_HIS_DEC_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs5TPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams" prompt="BDD_ORACLE_ODS_HIS_DEC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs5jPsEeupooSlutdgYw"/>
+    <contextParameter comment="" name="BDD_ORACLE_ODS_HIS_DEC_Login" prompt="BDD_ORACLE_ODS_HIS_DEC_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_Mpvs5zPsEeupooSlutdgYw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c2273610-6702-462a-8e73-fd4c525e0bec"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>f2PLrZOUIE/R/AWzAvhbjBeKJSqxd9csCRr10IAGd3Lo2QATuDPiZK3GiG1gTMkQq2VgXoXDddTw&#13;
+kzueWs71qQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_550386b2-2405-4264-aeb6-24cf5b00dbe0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LD/Il+K/QuzlXVT+7OdZvi6UebKwBYI5KwUZlNBRN8ihZN1ADubq6hngM8DqVluR8PbSZisdwpdQ&#13;
+wC56rRPX3g==</DigestValue></Reference></SignedInfo><SignatureValue>Hv40VgaO6xYrZCBWCoqfRB5J+c0TVb+8AbRmhSLEgsAuj6pV9zYoa3OnPpYl0gFsO7o2tmpc6g/7&#13;
+bjeE16YTvHROQ9s5jZ+kNX4LmikC9X9R6M0MrC/VCVa5d9s/iTbeYA15oSH962h3H6IMBh74bdZm&#13;
+NXgj8rGS9Sis7c+qg3VYV/Sn8Qcou+h8hOzohQ/RwIWSuA2XRebaiwqD6wDWxZWrgOpaKjIvZPui&#13;
+3e6YV7zYAG8mXyesW13X++QKc5hE3pnhXm85YeoZzppLa9x1LATtJpoUnKfoFTpw81eXavOwoBwZ&#13;
+WixuQG9rtgiYcGhtbrOQdA33fm78h5pWAN+dkA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_550386b2-2405-4264-aeb6-24cf5b00dbe0" Target="#_c2273610-6702-462a-8e73-fd4c525e0bec"><Timestamp>2022-01-21 13:16:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

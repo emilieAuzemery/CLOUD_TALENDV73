@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_bb_s4COBEeueDqA07KoUbA">
+    <contextParameter comment="Paramètre de tolérance des calculs des CA" name="RSR_Donnees_dyna_Tolerance_CA" prompt="RSR_Donnees_dyna_Tolerance_CA?" promptNeeded="false" type="id_Double" value="0.02" xmi:id="_bb_s4SOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date de cloture du type de données" name="RSR_Donnees_dyna_Date_cloture" prompt="RSR_Donnees_dyna_Date_cloture?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s4iOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date d'intégration du type de données" name="RSR_Donnees_dyna_Date_integration" prompt="RSR_Donnees_dyna_Date_integration?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s4yOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Type de données des données dynamiques" name="RSR_Donnees_dyna_Type_donnees" prompt="RSR_Donnees_dyna_Type_donnees?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s5COBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Int" xmi:id="_bb_s5SOBEeueDqA07KoUbA">
+    <contextParameter comment="Paramètre de tolérance des calculs des CA" name="RSR_Donnees_dyna_Tolerance_CA" prompt="RSR_Donnees_dyna_Tolerance_CA?" promptNeeded="false" type="id_Double" value="0.02" xmi:id="_bb_s5iOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date de cloture du type de données" name="RSR_Donnees_dyna_Date_cloture" prompt="RSR_Donnees_dyna_Date_cloture?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s5yOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date d'intégration du type de données" name="RSR_Donnees_dyna_Date_integration" prompt="RSR_Donnees_dyna_Date_integration?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s6COBEeueDqA07KoUbA"/>
+    <contextParameter comment="Type de données des données dynamiques" name="RSR_Donnees_dyna_Type_donnees" prompt="RSR_Donnees_dyna_Type_donnees?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s6SOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Qualif" xmi:id="_bb_s6iOBEeueDqA07KoUbA">
+    <contextParameter comment="Paramètre de tolérance des calculs des CA" name="RSR_Donnees_dyna_Tolerance_CA" prompt="RSR_Donnees_dyna_Tolerance_CA?" promptNeeded="false" type="id_Double" value="0.02" xmi:id="_bb_s6yOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date de cloture du type de données" name="RSR_Donnees_dyna_Date_cloture" prompt="RSR_Donnees_dyna_Date_cloture?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s7COBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date d'intégration du type de données" name="RSR_Donnees_dyna_Date_integration" prompt="RSR_Donnees_dyna_Date_integration?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s7SOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Type de données des données dynamiques" name="RSR_Donnees_dyna_Type_donnees" prompt="RSR_Donnees_dyna_Type_donnees?" promptNeeded="false" type="id_String" value="" xmi:id="_bb_s7iOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bcdd6328-be77-4a7b-91f9-f519f261ba88"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sP5zzBJlFgOmXNwb4KRa9Zb91GXUkmQLbv1cVQ+uNFHDGWhNPTPHvZB3AFtkh/Xh95wNNgr4cA7A&#13;
+szaaxnepVw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3ecee4be-a49d-47ed-9ad8-e35332980715"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HAafUZOLhyyB5z1hzVgktPfVOUGdlR1Tjo2E48N9XP1yj9GiOj9kusrET0wnQcaI2PTRfzrlPXOK&#13;
+L0Spk7zTjg==</DigestValue></Reference></SignedInfo><SignatureValue>gOIqpEjYMWHq6EabetYpmqaSUM8BnVxqqLzT21otIqcEtcY9B6O8tDHo321jqG1UmGde39mChfof&#13;
+8AzX3msuHv5ApQiKGo8ym/CMpXzmVRzBI+nc22lT7eRWiGxUDYeYvcsyntsGwslFCvRvb8bDMi4d&#13;
+rjDA2T2IzzAokzEjXAFTQ4zuqV7uKy6x0DifRMTQ1Kh/sutiPQbL/zY2+R/LUZEqvJAyFhj19E3R&#13;
+x5TiuPXJwl1tia5IQgyxor4HIi3llESr+grYvralXknHYmyROd7kszRhrFc0e1eIZH932Y5/24wC&#13;
+ds5jIgxWuS0eiONuQxPI0BHhMCqijWCEGRL8oQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3ecee4be-a49d-47ed-9ad8-e35332980715" Target="#_bcdd6328-be77-4a7b-91f9-f519f261ba88"><Timestamp>2022-01-21 13:16:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

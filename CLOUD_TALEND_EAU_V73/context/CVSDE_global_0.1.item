@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_bZKbUCOBEeueDqA07KoUbA">
+    <contextParameter comment="" name="interfaceCVS" prompt="interfaceCVS?" promptNeeded="false" type="id_Directory" value="C:/projets/AndrosRSR/recep/CVSDE/depotXML" xmi:id="_bZKbUSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathCsvTmp" prompt="pathCsvTmp?" promptNeeded="false" type="id_Directory" value="C:/projets/AndrosRSR/recep/CVSDE/depotCSV" xmi:id="_bZKbUiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="fileNameCompteur" prompt="fileNameCompteur?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_bZKbUyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="tmpAno" prompt="tmpAno?" promptNeeded="false" type="id_Directory" value="C:/projets/AndrosRSR/recep/CVSDE/tmpAno" xmi:id="_bZKbVCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="RepCVStmp" prompt="RepCVStmp?" promptNeeded="false" type="id_Directory" value="C:/projets/AndrosRSR/recep/CVSDE/tmpCSV" xmi:id="_bZKbVSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="filePathCVSDE" prompt="filePathCVSDE?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbViOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathInterfaceTmp" prompt="pathInterfaceTmp?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbVyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathInterfaceTmp2" prompt="pathInterfaceTmp2?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/tmp2&quot;" xmi:id="_bZKbWCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="concat" prompt="concat?" promptNeeded="false" type="id_String" value="" xmi:id="_bZKbWSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="fileCVSDE" prompt="fileCVSDE?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbWiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="years" prompt="years?" promptNeeded="false" type="id_String" value="" xmi:id="_bZKbWyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="xmlFilePath" prompt="xmlFilePath?" promptNeeded="false" type="id_String" value="&quot;C:\Users\gdumas\Desktop\Andros\SVC\fichierDeTestXML\MT00000056_CAG 70_2018_DataExchange.xml&quot;" xmi:id="_bZKbXCOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Int" xmi:id="_bZKbXSOBEeueDqA07KoUbA">
+    <contextParameter comment="" name="interfaceCVS" prompt="interfaceCVS?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/recep/CVSDE/depotXML" xmi:id="_bZKbXiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathCsvTmp" prompt="pathCsvTmp?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/recep/CVSDE/depotCSV" xmi:id="_bZKbXyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="fileNameCompteur" prompt="fileNameCompteur?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_bZKbYCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="tmpAno" prompt="tmpAno?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/recep/CVSDE/tmpAno" xmi:id="_bZKbYSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="RepCVStmp" prompt="RepCVStmp?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/recep/CVSDE/tmpCSV" xmi:id="_bZKbYiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="filePathCVSDE" prompt="filePathCVSDE?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbYyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathInterfaceTmp" prompt="pathInterfaceTmp?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbZCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathInterfaceTmp2" prompt="pathInterfaceTmp2?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/tmp2&quot;" xmi:id="_bZKbZSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="concat" prompt="concat?" promptNeeded="false" type="id_String" value="" xmi:id="_bZKbZiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="fileCVSDE" prompt="fileCVSDE?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbZyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="years" prompt="years?" promptNeeded="false" type="id_String" value="" xmi:id="_bZKbaCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="xmlFilePath" prompt="xmlFilePath?" promptNeeded="false" type="id_String" value="&quot;C:\Users\gdumas\Desktop\Andros\SVC\fichierDeTestXML\MT00000056_CAG 70_2018_DataExchange.xml&quot;" xmi:id="_bZKbaSOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Qualif" xmi:id="_bZKbaiOBEeueDqA07KoUbA">
+    <contextParameter comment="" name="interfaceCVS" prompt="interfaceCVS?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/recep/CVSDE/depotXML" xmi:id="_bZKbayOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathCsvTmp" prompt="pathCsvTmp?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/recep/CVSDE/depotCSV" xmi:id="_bZKbbCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="fileNameCompteur" prompt="fileNameCompteur?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_bZKbbSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="tmpAno" prompt="tmpAno?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/recep/CVSDE/tmpAno" xmi:id="_bZKbbiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="RepCVStmp" prompt="RepCVStmp?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/recep/CVSDE/tmpCSV" xmi:id="_bZKbbyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="filePathCVSDE" prompt="filePathCVSDE?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbcCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathInterfaceTmp" prompt="pathInterfaceTmp?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbcSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="pathInterfaceTmp2" prompt="pathInterfaceTmp2?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/tmp2&quot;" xmi:id="_bZKbciOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="concat" prompt="concat?" promptNeeded="false" type="id_String" value="" xmi:id="_bZKbcyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="fileCVSDE" prompt="fileCVSDE?" promptNeeded="false" type="id_String" value="&quot;C:/Users/gdumas/Desktop/Andros/SVC/poub/1_tmp.csv&quot;" xmi:id="_bZKbdCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="years" prompt="years?" promptNeeded="false" type="id_String" value="" xmi:id="_bZKbdSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="" name="xmlFilePath" prompt="xmlFilePath?" promptNeeded="false" type="id_String" value="&quot;C:\Users\gdumas\Desktop\Andros\SVC\fichierDeTestXML\MT00000056_CAG 70_2018_DataExchange.xml&quot;" xmi:id="_bZKbdiOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2de85dcf-d59a-4c0b-a618-7d08ce9addac"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oYiCgzDGqs2PhcSc+gFc5he1TpuwQpCiQpqHuv72Xe3nDeJtxIdYOvgkdini/A/KKmzJrsdKpbDG&#13;
+jWvbb4WAAw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_920b25da-402c-4ba6-a32d-7f5576accdcf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WCMWFVGJDhECf9u6VmGtthyy1WZmoaZ/Hi9VNUfyjioajXAysI8MKOSJsbAnrQOa4A9bw/J/bAuh&#13;
+g+y4K7Amuw==</DigestValue></Reference></SignedInfo><SignatureValue>SyiEhvAQWGo2gcKFOq4FvE6lWg5Pqj8GmhP7vCm5vN+CnjVju20x0Uuj6cEHy9en9It2hhe30Evf&#13;
+8NO/Fqyr3P4hxXkup9Xplbuf0K/yA2KSIut5/Dp3jKGoklOU7lzaYciWgujFuTgQQxakFY3NTRAQ&#13;
+s/sdFlIJ+S/R4VzBwE4IAqjGmV6Eh3ZqPPkMnAlOiBK1kS/6/s0emcFpMQ+QhSI7onm4/rJVrNMJ&#13;
+wJD1oqO56eMozEM7wzkb4bXVknZGmNmi8CLlEmuV1vuZ98Ms4FR0e3uPduxxznVYdruuMC3uB0co&#13;
+XRx009j2L2nVqmBZpU0LtdwRfyUDahD3DiJHeQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_920b25da-402c-4ba6-a32d-7f5576accdcf" Target="#_2de85dcf-d59a-4c0b-a618-7d08ce9addac"><Timestamp>2022-01-21 13:16:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

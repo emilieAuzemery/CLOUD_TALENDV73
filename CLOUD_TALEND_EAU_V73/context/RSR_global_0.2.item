@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_bn9FQCOBEeueDqA07KoUbA">
+    <contextParameter comment="Répertoire de travail Entrées" name="GRepWorkEnt" prompt="GRepWorkEnt?" promptNeeded="false" type="id_Directory" value="C:\projets\AndrosRSR\work\Entrees\" xmi:id="_bn9FQSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire temporaire" name="GRepTemp" prompt="GRepTemp?" promptNeeded="false" type="id_Directory" value="C:\projets\AndrosRSR\tmp\" xmi:id="_bn9FQiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire de récéption des fichiers" name="GRepIn" prompt="GRepIn?" promptNeeded="false" type="id_Directory" value="C:\projets\AndrosRSR\recep\" xmi:id="_bn9FQyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire de travail Sorties" name="GRepWorkSort" prompt="GRepWorkSort?" promptNeeded="false" type="id_Directory" value="C:\projets\AndrosRSR\work\Sorties\" xmi:id="_bn9FRCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Période Courante" name="GPerCourante" prompt="GPerCourante?" promptNeeded="false" type="id_String" value="20170401" xmi:id="_bn9FRSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date de traitement" name="GDateTraitement" prompt="GDateTraitement?" promptNeeded="false" type="id_String" value="20170410" xmi:id="_bn9FRiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Schema de BDD" name="GSchema" prompt="GSchema?" promptNeeded="false" type="id_String" value="_" xmi:id="_bn9FRyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Chemin du fichier" name="GFilepath" prompt="GFilepath?" promptNeeded="false" type="id_String" value="_" xmi:id="_bn9FSCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du fichier" name="GFile" prompt="GFile?" promptNeeded="false" type="id_String" value="RF_AF_ARTL.csv" xmi:id="_bn9FSSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du répertoire de dépot" name="GRepDepot" prompt="GRepDepot?" promptNeeded="false" type="id_String" value="DATA_XXXX" xmi:id="_bn9FSiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Expression régulière pour le filtrage des fichiers référentiels" name="GFile_Ref_RegEx" prompt="GFile_Ref_RegEx?" promptNeeded="false" type="id_String" value="&quot;^RF_[A-Z]{2,3}_[A-Z|0-9]{2,30}(.xml|(_(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])([01]\\d|2[0-3])([0-5]\\d).csv))&quot;" xmi:id="_bn9FSyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du répertoire de réception à scruter" name="GDir_ToFilter" prompt="GDir_ToFilter?" promptNeeded="false" type="id_String" value="XferEntree" xmi:id="_bn9FTCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Expression régulière pour le filtrage des fichiers de données" name="GFile_Data_RegEx" prompt="GFile_Data_RegEx?" promptNeeded="false" type="id_String" value="&quot;^[A-Z|0-9]{2,30}_[A-Z|0-9]{2,30}(.xml|(_(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])([01]\\d|2[0-3])([0-5]\\d).csv))&quot;" xmi:id="_bn9FTSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Code correspondant à la valeur &quot;inconnu&quot;" name="GParam_INCONNU" prompt="GParam_INCONNU?" promptNeeded="false" type="id_String" value="INCONNU" xmi:id="_bn9FTiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire des paramètres" name="GRepParam" prompt="GRepParam?" promptNeeded="false" type="id_Directory" value="C:\projets\AndrosRSR\param\" xmi:id="_bn9FTyOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Int" xmi:id="_bn9FUCOBEeueDqA07KoUbA">
+    <contextParameter comment="Répertoire de travail Entrées" name="GRepWorkEnt" prompt="GRepWorkEnt?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/work/" xmi:id="_bn9FUSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire temporaire" name="GRepTemp" prompt="GRepTemp?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/tmp/" xmi:id="_bn9FUiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire de récéption des fichiers" name="GRepIn" prompt="GRepIn?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/recep/" xmi:id="_bn9FUyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire de travail Sorties" name="GRepWorkSort" prompt="GRepWorkSort?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/output/" xmi:id="_bn9FVCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Période Courante" name="GPerCourante" prompt="GPerCourante?" promptNeeded="false" type="id_String" value="20171101" xmi:id="_bn9FVSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date de traitement" name="GDateTraitement" prompt="GDateTraitement?" promptNeeded="false" type="id_String" value="20171217" xmi:id="_bn9FViOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Schema de BDD" name="GSchema" prompt="GSchema?" promptNeeded="false" type="id_String" value="_" xmi:id="_bn9FVyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Chemin du fichier" name="GFilepath" prompt="GFilepath?" promptNeeded="false" type="id_String" value="_" xmi:id="_bn9FWCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du fichier" name="GFile" prompt="GFile?" promptNeeded="false" type="id_String" value="RF_AF_ARTL.csv" xmi:id="_bn9FWSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du répertoire de dépot" name="GRepDepot" prompt="GRepDepot?" promptNeeded="false" type="id_String" value="DATA_XXXX" xmi:id="_bn9FWiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Expression régulière pour le filtrage des fichiers référentiels" name="GFile_Ref_RegEx" prompt="GFile_Ref_RegEx?" promptNeeded="false" type="id_String" value="&quot;^RF_[A-Z]{2,3}_[A-Z|0-9]{2,30}(.xml|(_(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])([01]\\d|2[0-3])([0-5]\\d).csv))&quot;" xmi:id="_bn9FWyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du répertoire de réception à scruter" name="GDir_ToFilter" prompt="GDir_ToFilter?" promptNeeded="false" type="id_String" value="XferEntree" xmi:id="_bn9FXCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Expression régulière pour le filtrage des fichiers de données" name="GFile_Data_RegEx" prompt="GFile_Data_RegEx?" promptNeeded="false" type="id_String" value="&quot;^[A-Z|0-9]{2,30}_[A-Z|0-9]{2,30}(.xml|(_(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])([01]\\d|2[0-3])([0-5]\\d).csv))&quot;" xmi:id="_bn9FXSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Code correspondant à la valeur &quot;inconnu&quot;" name="GParam_INCONNU" prompt="GParam_INCONNU?" promptNeeded="false" type="id_String" value="INCONNU" xmi:id="_bn9FXiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire des paramètres" name="GRepParam" prompt="GRepParam?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/INT/param/" xmi:id="_bn9FXyOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Qualif" xmi:id="_bn9FYCOBEeueDqA07KoUbA">
+    <contextParameter comment="Répertoire de travail Entrées" name="GRepWorkEnt" prompt="GRepWorkEnt?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/work/" xmi:id="_bn9FYSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire temporaire" name="GRepTemp" prompt="GRepTemp?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/tmp/" xmi:id="_bn9FYiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire de récéption des fichiers" name="GRepIn" prompt="GRepIn?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/recep/" xmi:id="_bn9FYyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire de travail Sorties" name="GRepWorkSort" prompt="GRepWorkSort?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/output/" xmi:id="_bn9FZCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Période Courante" name="GPerCourante" prompt="GPerCourante?" promptNeeded="false" type="id_String" value="20180201" xmi:id="_bn9FZSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Date de traitement" name="GDateTraitement" prompt="GDateTraitement?" promptNeeded="false" type="id_String" value="20180210" xmi:id="_bn9FZiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Schema de BDD" name="GSchema" prompt="GSchema?" promptNeeded="false" type="id_String" value="_" xmi:id="_bn9FZyOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Chemin du fichier" name="GFilepath" prompt="GFilepath?" promptNeeded="false" type="id_String" value="_" xmi:id="_bn9FaCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du fichier" name="GFile" prompt="GFile?" promptNeeded="false" type="id_String" value="RF_AF_ARTL.csv" xmi:id="_bn9FaSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du répertoire de dépot" name="GRepDepot" prompt="GRepDepot?" promptNeeded="false" type="id_String" value="DATA_XXXX" xmi:id="_bn9FaiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Expression régulière pour le filtrage des fichiers référentiels" name="GFile_Ref_RegEx" prompt="GFile_Ref_RegEx?" promptNeeded="false" type="id_String" value="&quot;^RF_[A-Z]{2,3}_[A-Z|0-9]{2,30}(.xml|(_(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])([01]\\d|2[0-3])([0-5]\\d).csv))&quot;" xmi:id="_bn9FayOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Nom du répertoire de réception à scruter" name="GDir_ToFilter" prompt="GDir_ToFilter?" promptNeeded="false" type="id_String" value="XferEntree" xmi:id="_bn9FbCOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Expression régulière pour le filtrage des fichiers de données" name="GFile_Data_RegEx" prompt="GFile_Data_RegEx?" promptNeeded="false" type="id_String" value="&quot;^[A-Z|0-9]{2,30}_[A-Z|0-9]{2,30}(.xml|(_(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])([01]\\d|2[0-3])([0-5]\\d).csv))&quot;" xmi:id="_bn9FbSOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Code correspondant à la valeur &quot;inconnu&quot;" name="GParam_INCONNU" prompt="GParam_INCONNU?" promptNeeded="false" type="id_String" value="INCONNU" xmi:id="_bn9FbiOBEeueDqA07KoUbA"/>
+    <contextParameter comment="Répertoire des paramètres" name="GRepParam" prompt="GRepParam?" promptNeeded="false" type="id_Directory" value="/opt/AndrosRSR/QUALIF/param/" xmi:id="_bn9FbyOBEeueDqA07KoUbA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1916445a-b795-4f15-9227-9ced0a734c6b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CdDKEGLmudp+OAj1woZFdu1vkpsAVtiL6vKyd/ioC2i1Xsj47nrVQxKotKfo3vwtp5FWhvOguC4n&#13;
+BElPx+R3kA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8cb0be97-f995-45ea-8ada-9c7fcc296479"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PYxbzyHlTiPT4hVFzI2447hHqGtjlq5r80Qgiw0nlHop+ZLHtO3nhj41G03Pp750Ooy3HzeEch6q&#13;
+BHiD7qaZvQ==</DigestValue></Reference></SignedInfo><SignatureValue>JeQDpXUsLaY1NufK3vpfyitxXRQaPvuQMKFIwKJ6qHIyh9pi9/aAMBqeBj8IAyed6UmvIy8xoPzl&#13;
+UOlRib8qWHFJzpC22NXJfTdgL5j+f4elyIURUWTZCTUknQ08MtdrW04HFK39i7/8q6CJrHyHr0sB&#13;
+tTKXnAQa0CS6dMr6ASPYlBulB9prWCGuASuy4f7BukCDqg2mvEyaK3LFeWW03lzQbUeUBzTR2tS0&#13;
+mZjQV0tLUqBDj4q64t0IZpS6/9K4ed833UxlBZhyGUvGpkVcfAWZOgD4/G2AMeaupyeeXpp6T3q6&#13;
+S33tVUX4of7zWCCa5e8iQ2DCprhBLK1o57TzZA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8cb0be97-f995-45ea-8ada-9c7fcc296479" Target="#_1916445a-b795-4f15-9227-9ced0a734c6b"><Timestamp>2022-01-21 13:16:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

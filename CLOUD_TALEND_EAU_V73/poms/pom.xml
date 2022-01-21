@@ -11,6 +11,65 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/joblets/Tests/jitecgonogo_copy_0.2</module>
+    <module>jobs/joblets/Tests/jl_ipc_create_dataset_task_0.1</module>
+    <module>jobs/joblets/Tests/jl_ipc_create_dataset_task_pg_0.1</module>
+    <module>jobs/joblets/Tests/jl_ipc_create_dataset_task_with_connexion_0.1</module>
+    <module>jobs/joblets/Tests/jl_ipc_create_dataset_task_with_connexion_pg_0.1</module>
+    <module>jobs/joblets/Tests/jl_ipc_create_image_task_0.1</module>
+    <module>jobs/joblets/Tests/jl_ipc_create_image_task_pg_0.1</module>
+    <module>jobs/joblets/error_job_0.1</module>
+    <module>jobs/joblets/jitecgonogo_0.1</module>
+    <module>jobs/joblets/jitecgonogo_0.2</module>
+    <module>jobs/joblets/jitecgonogo_0.4</module>
+    <module>jobs/joblets/jllogjd_0.1</module>
+    <module>jobs/joblets/jllogpg_0.1</module>
+    <module>jobs/joblets/jlparameters_0.1</module>
+    <module>jobs/joblets/jlstartjob_0.1</module>
+    <module>jobs/joblets/jltecjd_0.1</module>
+    <module>jobs/joblets/jltecjd_0.2</module>
+    <module>jobs/joblets/jltecjd_0.3</module>
+    <module>jobs/joblets/jltecjs_0.1</module>
+    <module>jobs/joblets/jltecjs_0.2</module>
+    <module>jobs/joblets/jltecjs_0.3</module>
+    <module>jobs/joblets/jltecjs_fle_jex_0.1</module>
+    <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice1_0.1</module>
+    <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice2_0.1</module>
+    <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice3_0.1</module>
+    <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice4_0.1</module>
+    <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice5_0.1</module>
+    <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice6_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/GROUPING/jddeletegroupingtasks_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/GROUPING/jdgroupingtask_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/MERGING/jddeletemergingtasks_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/MERGING/jdgetuniquerecords_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/MERGING/jdmergingtask_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/PREPARATION/jdpreparationfichiersclients_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/RESOLUTION/jddeleteresolutiontasks_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/RESOLUTION/jdgetresolvedtasks_0.1</module>
+    <module>jobs/process/DEMO_DS/VOLVO/RESOLUTION/jdloadresolutiontasks_0.1</module>
+    <module>jobs/process/DEMO_PREP/jdpreparationdonnees_0.1</module>
+    <module>jobs/process/DEMO_PREP/jdpreparationdonneesdynamique_0.1</module>
+    <module>jobs/process/DEMO_PREP/jspreparationdonnees2_0.1</module>
+    <module>jobs/process/DEMO_PREP/jspreparationdonnees_0.1</module>
+    <module>jobs/process/DI/jdtestcast_0.1</module>
+    <module>jobs/process/DI/job_flow_parameters_0.1</module>
+    <module>jobs/process/DI/readjson_0.1</module>
+    <module>jobs/process/DI/recupabsenceemployee_0.1</module>
+    <module>jobs/process/DataPrep/bonus/jobprepdonnees_0.1</module>
+    <module>jobs/process/DataPrep/jobconcatenatefiles_0.1</module>
+    <module>jobs/process/DataPrep/jobmergingcampaign_0.1</module>
+    <module>jobs/process/DataPrep/jobpreparedonnees_0.1</module>
+    <module>jobs/process/DataPrep/jobrecuptachevalidee_0.1</module>
+    <module>jobs/process/LogsCloud/a_createamctables_0.1</module>
+    <module>jobs/process/LogsCloud/auditlogscloud_0.1</module>
+    <module>jobs/process/SANOFI/jdtravailredressement_0.1</module>
+    <module>jobs/process/TRAVAIL/jdmontauban_0.1</module>
+    <module>jobs/process/TRAVAIL/jdsetxmlformat_0.1</module>
+    <module>jobs/process/TRAVAIL/jdtestapiecocert_0.1</module>
+    <module>jobs/process/TRAVAIL/jdtestapivs_0.1</module>
+    <module>jobs/process/TRAVAIL/jdtestcontexts_0.1</module>
+    <module>jobs/process/TRAVAIL/jdtestlancejob_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CLOUD_TALEND_EAU_V73</talend.project.name>
