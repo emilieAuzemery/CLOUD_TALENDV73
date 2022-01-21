@@ -133,6 +133,11 @@
       <version>2.6</version>
     </dependency>
     <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.8.1</version>
@@ -198,9 +203,19 @@
       <version>2.3.4</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>ezmorph-1.0.6</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>failureaccess</artifactId>
       <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>fluent-hc</artifactId>
+      <version>4.5.5</version>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -276,6 +291,11 @@
       <groupId>com.cedarsoftware</groupId>
       <artifactId>json-io</artifactId>
       <version>4.9.9-TALEND</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.json-lib</groupId>
+      <artifactId>json-lib</artifactId>
+      <version>2.4.5-talend</version>
     </dependency>
     <dependency>
       <groupId>net.minidev</groupId>
@@ -388,6 +408,11 @@
       <version>4.1.2-20200903124306_modified_talend</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>resty-0.3.2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.25</version>
@@ -403,14 +428,19 @@
       <version>0.30.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend</groupId>
+      <artifactId>talend-httputil</artifactId>
+      <version>1.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.components</groupId>
+      <artifactId>talendExcel</artifactId>
+      <version>1.10-20210113</version>
+    </dependency>
+    <dependency>
       <groupId>org.talend.components.lib</groupId>
       <artifactId>talend_file_enhanced</artifactId>
       <version>1.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talendcsv</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.xmlbeans</groupId>
