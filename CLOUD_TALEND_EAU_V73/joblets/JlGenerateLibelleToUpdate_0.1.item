@@ -46,7 +46,7 @@
       <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:PiDeAz/HQ2Y4nbqd8uXFHhfEkhyZmAK0KgiQp1PU"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fFuMAk382jxXA8oK5eisU7oZcyacl161y/XoIwRE"/>
       <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -82,14 +82,14 @@
       <routinesParameter id="_dA8QIHq7EeyGE7jU17LvEA" name="TalendStringUtil"/>
       <routinesParameter id="_dA07YHq7EeyGE7jU17LvEA" name="TalendString"/>
     </parameters>
-    <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="768">
+    <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_1"/>
       <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
       <elementParameter field="TABLE" name="MAP" show="false"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tFlowToIterate_1"/>
     </node>
-    <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="768">
+    <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
       <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
       <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -108,7 +108,7 @@
         <column comment="" key="false" length="-1" name="toAnalyse" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="768">
+    <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNormalize_1"/>
       <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="toAnalyse"/>
       <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;#&quot;"/>
@@ -123,7 +123,7 @@
         <column comment="" key="false" length="-1" name="toAnalyse" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="768">
+    <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUniqRow_2"/>
       <elementParameter field="TABLE" name="UNIQUE_KEY">
         <elementValue elementRef="SCHEMA_COLUMN" value="toAnalyse"/>
@@ -146,7 +146,7 @@
         <column comment="" key="false" length="-1" name="toAnalyse" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tDenormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="768">
+    <node componentName="tDenormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDenormalize_1"/>
       <elementParameter field="TABLE" name="DENORMALIZE_COLUMNS">
         <elementValue elementRef="INPUT_COLUMN" value="toAnalyse"/>
@@ -159,7 +159,7 @@
         <column comment="" key="false" length="-1" name="toAnalyse" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="768">
+    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
       <elementParameter field="MEMO_JAVA" name="CODE" value="//init des variables de sortie&#10;String toReplace=&quot;&quot;;&#10;String replaceWith=&quot;&quot;;&#10;&#10;if (input_row.toAnalyse.contains(&quot;#&quot;)) { // il existe des libellés à uniformiser&#10;&#10;String toAnalyse[]=input_row.toAnalyse.split(&quot;#&quot;);&#10;toReplace=&quot;&quot;;&#10;replaceWith=toAnalyse[0];&#10;&#10;&#9;for (int i=1;i&lt;toAnalyse.length;i++) {&#10;&#9;&#9;toReplace=toReplace+&quot;#&quot;+toAnalyse[i];&#10;&#9;}&#10;toReplace=toReplace.substring(1); // enlever le premier #&#10; &#10;} else {&#10;// libellé unique : on le conserve&#10;replaceWith=input_row.toAnalyse;&#10;toReplace=&quot;&quot;;&#10;}&#10;&#10;output_row.replaceWith=replaceWith;&#10;output_row.toReplace=toReplace; // enlever le premier #&#10;&#10;&#10;"/>
       <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -203,7 +203,7 @@
       <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
       <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
     </subjob>
-    <jobletNodes componentName="INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="64" posY="768">
+    <jobletNodes componentName="INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
       <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
       <elementParameter field="CHECK" name="START" show="false" value="true"/>
@@ -216,7 +216,7 @@
         <column comment="" key="false" length="-1" name="toAnalyse" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       </metadata>
     </jobletNodes>
-    <jobletNodes componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="768">
+    <jobletNodes componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="192">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
       <elementParameter field="CHECK" name="STARTABLE" show="false" value="false"/>
       <elementParameter field="CHECK" name="START" show="false" value="false"/>
@@ -232,13 +232,13 @@
     </jobletNodes>
   </model:JobletProcess>
   <TalendProperties:ByteArray/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1da01f0f-b72f-4d7c-8dae-f88d8b319f08"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gp1J/8JtgTnjavi9hz1NBGkdYJvlENCk7PALfxC8nS3EMw3JvCUzyDbRxNULWRr4mvcU0nBT0OQR&#13;
-ka7DB4v8iQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f36be1bc-f357-42af-a5ce-5d70c0e0448d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jeL5+vFgjdCuUZTrHR76pCKLQ19TJjcko3A2Iu1CT8TWUBpK+DnuNz6TBS1Ifu9JrtdoBB5lgAvO&#13;
-L6p+lRFjbg==</DigestValue></Reference></SignedInfo><SignatureValue>NV+hyeMEm3YsLe/nsGucADfIGygp1LL7wq2jAw9BnUpMM12pgta6MOrGmD6kpXsVUS/xfY1+GMLS&#13;
-HxawZxjnFQebVQnsVICO94/R9NFztF6HWdBCq9Ju0IKPiANjAPn9vOKZq+qYGX+qF1kvmjdqZJ8O&#13;
-49qZn3fKH1EYQ5eIiUCDmxi+wjVT3x1szw50Cj0OU+WYomI7UIoyi9bqGmu5Gjs2XFrB6CRGMeVL&#13;
-I/7KTMN+TTu7ZgUyLu5kzVerNkVH1EZxh9HqEZ3ujYe9ZONWRXzinCM9OUsmuzVYD0mx4tSDnfKx&#13;
-EToPvzJ29WCBJV+DoQklNijdT8T5Khev8R6Hzg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e5c61e21-43d1-40a6-96b8-380a1bac6828"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XK17infUu+89JMC/SdmuLNOKjRK1I3lCVo/CG27Y74Hw/cpDRJSd0PgdJYaer7Qntgy2m4+afigN&#13;
+Aq/DELMgdQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8a04e827-11aa-4b7b-80ea-bb147bfc2dc7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rmS5Inxl6PvBN2LRWMmumIrlI4tLtXFhxcBVfQhrN/gjDrGMzXZX7+qS3v2ZTQptllXppiIoP4hc&#13;
+9x3saLC+rw==</DigestValue></Reference></SignedInfo><SignatureValue>TwzUP7TTWjz+AusksNlowIqU33zxQYqqQcZgzUQ0Oyjp/bK/Iwp5rHJj8HjajjqcT6xwi+2wV95h&#13;
+1pIWy9zmDnT4ENzG/iExh3cLi5jNv0cuECFLO0YKcMFo8VNu2Ho46kTzGoiq1v6I+uZO/uCJY/f/&#13;
+d/e671AHJugZfPwUusgFcrmE+WC8eAnkMAsTTK9zIASYlWIj4GgcA/V2DEMgRyVXkHPaT14Z93jN&#13;
+LGrvDtG+i8V04vS8Keoon4RggY3Gga3fDRZeFRjz1HH2lbWku6hIyfKhInB4POdiM5Vi5rB3f75Q&#13;
+fFnlL90TtQqOMp1uRkshynMH1g1GpuHbsrIRHg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -260,4 +260,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f36be1bc-f357-42af-a5ce-5d70c0e0448d" Target="#_1da01f0f-b72f-4d7c-8dae-f88d8b319f08"><Timestamp>2022-01-24 15:01:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8a04e827-11aa-4b7b-80ea-bb147bfc2dc7" Target="#_e5c61e21-43d1-40a6-96b8-380a1bac6828"><Timestamp>2022-01-24 15:01:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
