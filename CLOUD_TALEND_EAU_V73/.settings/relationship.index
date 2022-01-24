@@ -211,13 +211,9 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "__P1CQOPUEeuTRIKpTdi5fA",
+    "id" : "_4BBV0Hq8EeyGE7jU17LvEA",
     "version" : "Latest",
     "type" : "context"
-  }, {
-    "id" : "_wSDbYOPUEeuTRIKpTdi5fA",
-    "version" : "Latest",
-    "type" : "property"
   } ]
 }, {
   "baseItem" : {
