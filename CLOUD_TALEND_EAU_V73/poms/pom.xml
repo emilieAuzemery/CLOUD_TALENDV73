@@ -34,6 +34,7 @@
     <module>jobs/joblets/jltecjs_0.3</module>
     <module>jobs/joblets/jltecjs_fle_jex_0.1</module>
     <module>jobs/process/AIWATCH/jdrundatapreparation_0.1</module>
+    <module>jobs/process/AIWATCH/jmcorrectlabels_0.1</module>
     <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice1_0.1</module>
     <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice2_0.1</module>
     <module>jobs/process/CORRECTION_FORMATION/cve_form_exercice3_0.1</module>
