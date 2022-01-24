@@ -54,7 +54,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:cqIOEhgsZPA8KQa4wPi6qS9hUpzpfJL+6sg1KP25"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:S3thv1HZ8wkkzqM8WPVuEiOQJQs0GFO2IHPLSOXl"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -89,7 +89,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:MLuMSI/TRDi9Jv1GWYhm9p4/4DBkRwh/rnzhDtKp"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:nEi5BKbTmDxMZvKQnDp62VhuaC9l9bDaeFyEWpbs"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -143,7 +143,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.aiwatch_rep_work+&quot;Pharmacompass Hydroxy Sulfate Labels.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:jay/XgnPLNLCOyyIA3W9NEYnsqIfpkzYwUB7syK/"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:NO3ZtfwPCcMt1wqSsIFkBSfTUdS78xozbP7NulA+"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="&quot;API Exports (2)&quot;"/>
@@ -352,52 +352,30 @@
       <column comment="" key="false" length="16" name="Average_Price_per_Qty__EUR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="13" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="110" name="PRODUCT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Validation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column17" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column18" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Current_Year_Rate__INR_to___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0125" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Most_recent_year" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="_021" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Previous_Years_Rate__N_1_N_2_N_3_N_4_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01251" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01252" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0133" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01331" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.TOTAL_VALUE__INR == null || &quot;&quot;.equals(row1.TOTAL_VALUE__INR) ? Double.parseDouble(&quot;0.00&quot;) : Double.parseDouble(row1.TOTAL_VALUE__INR.replace(&quot;  &quot;,&quot;&quot;).replace(',','.')) " name="tot_value_comma" type="id_Double"/>
+        <mapperTableEntries expression="row1.QUANTITY == null || &quot;&quot;.equals(row1.QUANTITY) ? Double.parseDouble(&quot;0.00&quot;) : Double.parseDouble(row1.QUANTITY.replace(&quot;  &quot;,&quot;&quot;).replace(',','.')) " name="qty_value_comma" type="id_Double"/>
+        <mapperTableEntries expression="&quot;2021&quot;.equals(row1.DATE_YEAR) ? context.aiwatch_total_eur_2021 * Var.tot_value_comma :&#13;&#10;&quot;2020&quot;.equals(row1.DATE_YEAR) ? context.aiwatch_total_eur_2020 * Var.tot_value_comma :&#13;&#10;&quot;2019&quot;.equals(row1.DATE_YEAR) ? context.aiwatch_total_eur_2019 * Var.tot_value_comma :&#13;&#10;&quot;2018&quot;.equals(row1.DATE_YEAR) ? context.aiwatch_total_eur_2018 * Var.tot_value_comma :&#13;&#10;context.aiwatch_total_eur_def * Var.tot_value_comma " name="eur_value" type="id_Double"/>
+      </varTables>
       <outputTables name="out_exports" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="DATE" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="Month" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Quarter" nullable="true" type="id_String"/>
-        <mapperTableEntries name="API_Supplier" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Customer_Name" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Country_of_destination" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Subregion" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Region" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Qty" nullable="true" type="id_String"/>
-        <mapperTableEntries name="UNIT" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Total_FOB_in_INR" nullable="true" type="id_String"/>
-        <mapperTableEntries name="EUR_Value__total_" nullable="true" type="id_Float"/>
-        <mapperTableEntries name="Average_Price_per_Qty__EUR_" nullable="true" type="id_Float"/>
-        <mapperTableEntries name="PRODUCT" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Validation" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="Column15" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Column16" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Column17" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Column18" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Current_Year_Rate__INR_to___" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__0125" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Most_recent_year" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_021" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Previous_Years_Rate__N_1_N_2_N_3_N_4_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__01251" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__01252" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__0133" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__01331" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Integer.parseInt(row1.DATE_YEAR ) " name="DATE" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.DATE_MONTH_LABEL " name="Month" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.DATE_QUARTER " name="Quarter" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.INDIAN_COMPANY " name="API_Supplier" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.FOREIGN_COMPANY " name="Customer_Name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.COUNTRY " name="Country_of_destination" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="in_REGIONS_EXP.Subregion " name="Subregion" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="in_REGIONS_EXP.Region " name="Region" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.QUANTITY " name="Qty" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.UNIT " name="UNIT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.TOTAL_VALUE__INR_ " name="Total_FOB_in_INR" nullable="true" type="id_String"/>
+        <mapperTableEntries expression=" Var.eur_value " name="EUR_Value__total_" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="Var.eur_value / Var.qty_value_comma " name="Average_Price_per_Qty__EUR_" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.PRODUCT " name="PRODUCT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;JAPAN&quot;.equals(row1.COUNTRY ) || &quot;UNITED STATES&quot;.equals(row1.COUNTRY ) ? 1 : 0 " name="Validation" nullable="true" type="id_Integer"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="DATE_YEAR" type="id_String"/>
@@ -421,8 +399,8 @@
         <mapperTableEntries name="BILL_NO" type="id_String"/>
         <mapperTableEntries name="field17" type="id_String"/>
       </inputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="in_REGIONS_EXP" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="Country" nullable="true" type="id_String"/>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="in_REGIONS_EXP" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.COUNTRY " name="Country" nullable="true" operator="=" type="id_String"/>
         <mapperTableEntries name="Region" nullable="true" type="id_String"/>
         <mapperTableEntries name="Subregion" nullable="true" type="id_String"/>
       </inputTables>
@@ -434,7 +412,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_6mwl0H0pEeyavsIjvfRzMw"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/eauzemery/Desktop/PROJETS/SANOFI/AI WATCH/Regional Mapping.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Qe62EqU833oKzhQrbfNjytQEPsy17wVOj5b27PEv"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:RJQQBEx7JC7AVESI+9gbvti8yGtRBBDcnc1qLsqw"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Mapping&quot;"/>
@@ -545,37 +523,9 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Validation"/>
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Column15"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Column16"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Column17"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Column18"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Current_Year_Rate__INR_to___"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__0125"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Most_recent_year"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="_021"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Previous_Years_Rate__N_1_N_2_N_3_N_4_"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__01251"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__01252"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__0133"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__01331"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:Pq8JeuWZdzrPxyxMs0Tw9QmdAVitABjQepUZM8Hq"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_cEyfAHq9EeyGE7jU17LvEA - metadata"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:KwI5wGVQ24WnjNne0f/HDrTxnJwtFpMFi5YM0da8"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" show="false" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -606,26 +556,13 @@
       <column comment="" key="false" length="16" name="Average_Price_per_Qty__EUR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="13" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="110" name="PRODUCT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Validation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column17" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Column18" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Current_Year_Rate__INR_to___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0125" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Most_recent_year" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="_021" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Previous_Years_Rate__N_1_N_2_N_3_N_4_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01251" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01252" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0133" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01331" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_2"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.aiwatch_rep_work+&quot;Pharmacompass Hydroxy Sulfate Labels.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:VwXrdNYvJWlYvXH9hKQNmxTfqwLcdRS/GWHN3n60"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:XNc8nH7mPW4MrbpPFhS3wvjK7GsBbChECb1RfggX"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="&quot;API Imports (2)&quot;"/>
@@ -834,44 +771,30 @@
       <column comment="" key="false" length="13" name="Total_Value__EUR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="Average_Price_per_Qty__EUR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="16" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Validation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Current_Year_Rate__INR_to___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0125" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Most_recent_year" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="_021" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Previous_Years_Rate__N_1_N_2_N_3_N_4_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01251" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01252" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0133" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01331" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row2.TOTAL_VALUE__INR == null || &quot;&quot;.equals(row2.TOTAL_VALUE__INR) ? Double.parseDouble(&quot;0.00&quot;) : Double.parseDouble(row2.TOTAL_VALUE__INR.replace(&quot;  &quot;,&quot;&quot;).replace(',','.')) " name="tot_value_comma" type="id_Double"/>
+        <mapperTableEntries expression="&quot;2021&quot;.equals(row2.DATE_YEAR) ? context.aiwatch_total_eur_2021 * Var.tot_value_comma :&#13;&#10;&quot;2020&quot;.equals(row2.DATE_YEAR) ? context.aiwatch_total_eur_2020 * Var.tot_value_comma :&#13;&#10;&quot;2019&quot;.equals(row2.DATE_YEAR) ? context.aiwatch_total_eur_2019 * Var.tot_value_comma :&#13;&#10;&quot;2018&quot;.equals(row2.DATE_YEAR) ? context.aiwatch_total_eur_2018 * Var.tot_value_comma :&#13;&#10;context.aiwatch_total_eur_def * Var.tot_value_comma " name="total_eur" type="id_Double"/>
+        <mapperTableEntries expression="row2.QUANTITY == null || &quot;&quot;.equals(row2.QUANTITY) ? Double.parseDouble(&quot;0.00&quot;) : Double.parseDouble(row2.QUANTITY.replace(&quot;  &quot;,&quot;&quot;).replace(',','.')) " name="qty_value_comma" type="id_Double"/>
+      </varTables>
       <outputTables name="out_imports" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="DATE" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="Month" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Quarter" nullable="true" type="id_String"/>
-        <mapperTableEntries name="PRODUCT" nullable="true" type="id_String"/>
-        <mapperTableEntries name="API_Importer" nullable="true" type="id_String"/>
-        <mapperTableEntries name="FOREIGN_COMPANY" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Country_of_origin" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Subregion" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Region" nullable="true" type="id_String"/>
-        <mapperTableEntries name="QTY" nullable="true" type="id_String"/>
-        <mapperTableEntries name="UNIT" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Total_Value__INR_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Total_Value__EUR_" nullable="true" type="id_Float"/>
-        <mapperTableEntries name="Average_Price_per_Qty__EUR_" nullable="true" type="id_Float"/>
-        <mapperTableEntries name="Validation" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="Current_Year_Rate__INR_to___" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__0125" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Most_recent_year" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_021" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Previous_Years_Rate__N_1_N_2_N_3_N_4_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__01251" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__01252" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__0133" nullable="true" type="id_String"/>
-        <mapperTableEntries name="__01331" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Integer.parseInt(row2.DATE_YEAR )" name="DATE" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row2.DATE_MONTH_LABEL " name="Month" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.DATE_QUARTER " name="Quarter" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.PRODUCT " name="PRODUCT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.INDIAN_COMPANY " name="API_Importer" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.FOREIGN_COMPANY " name="FOREIGN_COMPANY" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.COUNTRY " name="Country_of_origin" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="in_REGIONS_IMP.Subregion " name="Subregion" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="in_REGIONS_IMP.Region " name="Region" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.QUANTITY " name="QTY" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.UNIT " name="UNIT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.TOTAL_VALUE__INR_ " name="Total_Value__INR_" nullable="true" type="id_String"/>
+        <mapperTableEntries expression=" Var.total_eur " name="Total_Value__EUR_" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression=" Var.total_eur  /  Var.qty_value_comma " name="Average_Price_per_Qty__EUR_" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="&quot;JAPAN&quot;.equals(row2.COUNTRY) || &quot;UNITED STATES&quot;.equals(row2.COUNTRY) ? 1 : 0 " name="Validation" nullable="true" type="id_Integer"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
         <mapperTableEntries name="DATE_YEAR" type="id_String"/>
@@ -895,8 +818,8 @@
         <mapperTableEntries name="DUTY" type="id_String"/>
         <mapperTableEntries name="HS_CODE" type="id_String"/>
       </inputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="in_REGIONS_IMP" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="Country" nullable="true" type="id_String"/>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="in_REGIONS_IMP" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row2.COUNTRY " name="Country" nullable="true" operator="=" type="id_String"/>
         <mapperTableEntries name="Region" nullable="true" type="id_String"/>
         <mapperTableEntries name="Subregion" nullable="true" type="id_String"/>
       </inputTables>
@@ -908,7 +831,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_6mwl0H0pEeyavsIjvfRzMw"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/eauzemery/Desktop/PROJETS/SANOFI/AI WATCH/Regional Mapping.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:7ad47lJsz7yQcxJFgmfA9DzfP3vDLrjg6Z4U3xOL"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:lNn1APVOPP5sUIsoYSlTrzOwDDD1GNJZim1Y5+PT"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Mapping&quot;"/>
@@ -1019,29 +942,9 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Validation"/>
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Current_Year_Rate__INR_to___"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__0125"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Most_recent_year"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="_021"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Previous_Years_Rate__N_1_N_2_N_3_N_4_"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__01251"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__01252"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__0133"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="__01331"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:+YzF9TK6iCNkuCzWsx6zO6Jmc1mZxYqGD8NS6jU4"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_OedMMHq9EeyGE7jU17LvEA - metadata"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:KWOQJ3m2yVZFkMRpG4f3AOnBv8ZzWm4ULyfEVU7a"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" show="false" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1072,15 +975,6 @@
       <column comment="" key="false" length="13" name="Total_Value__EUR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="Average_Price_per_Qty__EUR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="16" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Validation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Current_Year_Rate__INR_to___" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0125" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Most_recent_year" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="_021" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Previous_Years_Rate__N_1_N_2_N_3_N_4_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01251" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01252" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__0133" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="__01331" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCopy_1" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_1" target="tFileInputExcel_1">
@@ -1128,13 +1022,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_10d098b9-0c0b-4ade-b1fd-5d131bf98635"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ljm/FZl0IFhOdPlUfjrgApzk9jfJorgCyokWWH3P8ThM8V7l3Sqg8v0DgznuKHj0NRKPSGxazV1v&#13;
-V2Y+yzvnDw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_87432aca-3bd3-44a4-ac2d-5ee37072cc01"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gXsff/wptHPfy75iG0v46lYMIELVegyQaCjApHoGYVUiZVEZ3FMe5u97zdxC6NbgVzZPvv69vi3/&#13;
-HzlMIndfZg==</DigestValue></Reference></SignedInfo><SignatureValue>K3iwm5kSmhXBiixVqfGMmbhMjBJBddAoaqia3LJ3/yUzId+5vxh6TH1XMxDYxTgOqLtJhCUszxVh&#13;
-A0i7drhLCnt+fEpsUbvqA3WnI2XOsFuUOb286scjFx77ls4JCF7OFwnNQQSo97j2we+gn7Q/FK2Q&#13;
-Xln8dzAloMgXupBd0ayOJadQQOvF0ckDxYAd5GkJpLclOhAc25cFDy+tBYWwpeZLqxfUR0Zf2SA0&#13;
-nYVNwKbh9Xmty5BxPrddRq/wF1BF/Y9kCfjJ+I5WRAC1pzPEuv9IyJPxPWwmbHg8ewOMzXdrSURG&#13;
-s34goXiTx4a70NXP1rR7STKQZ7EKp6E+mA1ICw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fd391e7a-b2f6-447e-83bf-2549e14f2e03"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IJ8MtlBMulFuQoY16NsPrNQP+RfLzvvhqAirAltNk1JpeP401UKFGa3CZ/lN0ODdg+0BUhO6m1Et&#13;
+QED/aJbzSA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_89d6db6a-549a-4fcc-88c8-d2e5532489e2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PojiUjvfQxnOOObj8/hsHGq2oOZEthzjCE9CUQdx1lYnedac5PxHJeFIrrd78JQKHdymWMKC5XWl&#13;
+guHxeCKNWw==</DigestValue></Reference></SignedInfo><SignatureValue>T/4jql3JMwpeii59TMpOSNHZ7LaRotn0z6q05SVbvYyqQNfowXygh8hF308m4QXgPhOU7vcOcDDJ&#13;
+ouL+RA5SxXsUtN6FH1GAlu8ZQgRGHyRcWSijyyjnf97YKHX0n9qvnYy6n5SdxRriEkHsMw8Kmn0x&#13;
+KPgxOqHkVazLlMEJ/gSdjWy1eHN6jr0CVTtV5ORx1/zK7trK3xX7cn6ARcImZa+BQ4ZonQKRer3P&#13;
+I9mvP4h/SI9lbxISUA3HcGj660IjT7KClAIld7ZwFw4RnoNxSjcDn7f6Wnu41jOClD+scWA0q2ma&#13;
+o/QfiPJphGSBeG09RXXyRkiWGxTiRAydDHAWjA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1156,4 +1050,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_87432aca-3bd3-44a4-ac2d-5ee37072cc01" Target="#_10d098b9-0c0b-4ade-b1fd-5d131bf98635"><Timestamp>2022-01-24 15:27:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_89d6db6a-549a-4fcc-88c8-d2e5532489e2" Target="#_fd391e7a-b2f6-447e-83bf-2549e14f2e03"><Timestamp>2022-01-24 15:33:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
