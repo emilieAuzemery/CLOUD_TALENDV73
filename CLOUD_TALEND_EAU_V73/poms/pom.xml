@@ -75,6 +75,7 @@
     <module>jobs/process/TRAVAIL/jdtestapivs_0.1</module>
     <module>jobs/process/TRAVAIL/jdtestcontexts_0.1</module>
     <module>jobs/process/TRAVAIL/jdtestlancejob_0.1</module>
+    <module>jobs/services/test_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CLOUD_TALEND_EAU_V73</talend.project.name>
