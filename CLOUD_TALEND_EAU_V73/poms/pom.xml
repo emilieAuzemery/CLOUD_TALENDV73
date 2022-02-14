@@ -35,6 +35,7 @@
     <module>jobs/joblets/jltecjs_0.3</module>
     <module>jobs/joblets/jltecjs_fle_jex_0.1</module>
     <module>jobs/process/AIWATCH/jdcorrectcompanies_0.1</module>
+    <module>jobs/process/AIWATCH/jdcorrectproducts_0.1</module>
     <module>jobs/process/AIWATCH/jdcreateoutputfiles_0.1</module>
     <module>jobs/process/AIWATCH/jdorchestratecorrections_0.1</module>
     <module>jobs/process/AIWATCH/jdrundatapreparation_0.1</module>
