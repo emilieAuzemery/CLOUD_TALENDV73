@@ -83,9 +83,14 @@
       <version>1.14</version>
     </dependency>
     <dependency>
-      <groupId>commons-collections</groupId>
-      <artifactId>commons-collections</artifactId>
-      <version>3.2.2</version>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>commons-codec-1.7</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>commons-collections-3.2.2</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
@@ -135,11 +140,6 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>jakarta-oro-2.0.8</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
       <artifactId>jboss-serialization</artifactId>
       <version>6.0.0</version>
     </dependency>
@@ -180,8 +180,23 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>mapdb-1.0.3</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>org.talend.dataquality</artifactId>
+      <version>7.3.1_r2021_04</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>org.talend.dataquality.parser</artifactId>
       <version>7.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.dataquality</groupId>
+      <artifactId>org.talend.dataquality.record.linkage</artifactId>
+      <version>8.0.12</version>
     </dependency>
     <dependency>
       <groupId>org.apache.poi</groupId>
@@ -209,19 +224,9 @@
       <version>1.7.25</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.components</groupId>
-      <artifactId>talendExcel</artifactId>
-      <version>1.10-20210113</version>
-    </dependency>
-    <dependency>
       <groupId>org.talend.components.lib</groupId>
       <artifactId>talend_file_enhanced</artifactId>
       <version>1.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talendcsv</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -237,12 +242,6 @@
       <groupId>org.example.cloud_talend_eau_v73.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.cloud_talend_eau_v73.joblet</groupId>
-      <artifactId>JlGenerateLibelleToUpdate</artifactId>
-      <version>0.1.0</version>
-      <type>pom</type>
     </dependency>
   </dependencies>
   <build>
