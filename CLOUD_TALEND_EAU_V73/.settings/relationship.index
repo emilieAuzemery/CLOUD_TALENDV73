@@ -512,15 +512,7 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "CLOUD_TALEND_EAU_V73:_c_Ng4H0jEeyavsIjvfRzMw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "CLOUD_TALEND_EAU_V73:_en9AUH0jEeyavsIjvfRzMw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "CLOUD_TALEND_EAU_V73:_kmkvUHq8EeyGE7jU17LvEA",
+    "id" : "CLOUD_TALEND_EAU_V73:_ui6TII10Eey-5q4MXfqYow",
     "version" : "Latest",
     "type" : "job"
   } ]

@@ -139,17 +139,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.cloud_talend_eau_v73.job</groupId>
-      <artifactId>JdCreateOutputFiles</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.cloud_talend_eau_v73.job</groupId>
-      <artifactId>JdCorrectCompanies</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.cloud_talend_eau_v73.job</groupId>
-      <artifactId>JdRunDataPreparation</artifactId>
+      <artifactId>JdOrchestrateCorrections</artifactId>
       <version>0.1.0</version>
     </dependency>
   </dependencies>
