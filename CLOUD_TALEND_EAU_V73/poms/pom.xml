@@ -22,7 +22,6 @@
     <module>jobs/joblets/jitecgonogo_0.1</module>
     <module>jobs/joblets/jitecgonogo_0.2</module>
     <module>jobs/joblets/jitecgonogo_0.4</module>
-    <module>jobs/joblets/jl_detectsuspects_0.1</module>
     <module>jobs/joblets/jldetectsuspects_0.1</module>
     <module>jobs/joblets/jlgeneratelibelletoupdate_0.1</module>
     <module>jobs/joblets/jllogjd_0.1</module>
